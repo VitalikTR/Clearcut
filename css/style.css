@@ -6,36 +6,20 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.container{
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 /* tablet */
 @media(min-width:768px){
-    .container{
-        max-width: 720px;
-        
-    }
+    
 }
 
 /* laptop */
 @media(min-width:992px){
-    .container{
-        max-width: 960px;
-        
-    }
+    
 }
 
 /* desktop */
 @media(min-width:1280px){
-    .container{
-        max-width: 1200px;
-        
-    }
+    
 }
 
 
