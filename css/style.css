@@ -29,6 +29,9 @@ body {
 
 .logo-name {
     font-size: 36px;
+}
+
+.color-title {
     color:#666666;
 }
 
@@ -38,10 +41,24 @@ body {
     color: #999999;
 }
 
+.color-text{
+    color: #999999;
+}
+
 .upper-text {
     text-transform: uppercase;
 }
 
+/* ------------- shout-------------- */
+.shout-row {
+    background-color: #ffffff;
+}
+
+.text-shout{
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.5;
+}
 
 /* tablet */
 @media(min-width:768px){
@@ -68,6 +85,19 @@ body {
         color: #ffffff;
         background-color: #a7c353;
     }  
+
+    .shout-row {
+        height: 135px;
+    }
+    .shout-content {
+        display: flex;
+        align-items: center;
+        max-width: 100%;
+    }
+    
+    .text-shout{
+        font-size: 16px;
+    }
 }
 
 
@@ -76,7 +106,11 @@ body {
     .menu-item {
         padding: 39px 13px 39px 13px;
         font-size: 15px;
-    }    
+    }  
+    
+    .text-shout{
+        font-size: 20px;
+    }
 }
 
 /* desktop */
@@ -85,6 +119,10 @@ body {
         padding: 38px 20px 38px 20px;
         font-size: 17px;
     }   
+
+    .text-shout{
+        font-size: 22px;
+    }
 }
 
 
