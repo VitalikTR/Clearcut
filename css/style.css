@@ -68,6 +68,12 @@ body {
     flex-direction: column;
 }
 
+.about-img {
+padding: 5px;
+border: red solid 1px;
+}
+
+
 /* tablet */
 @media(min-width:768px){
     .header-row {
