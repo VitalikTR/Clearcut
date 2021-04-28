@@ -60,6 +60,11 @@ body {
     line-height: 1.5;
 }
 
+/* ------------- slider-------------- */
+
+
+/* ------------- content-------------- */
+
 /* tablet */
 @media(min-width:768px){
     .header-row {
