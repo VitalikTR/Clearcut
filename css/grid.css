@@ -12,7 +12,7 @@
     margin-right: -20px;
 }
 
-[class*="col"] {
+[class*="col-"] {
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -27,21 +27,33 @@
     .container{
         max-width: 720px;
     }
+
     .col-sm-4 {
         max-width: 33%;
         flex: 0 0 100%;
     }
+
     .col-sm-8 {
         max-width: 67%;
         flex: 0 0 100%;
     }
+
+    .col-sm-12 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
 }
 
 /* laptop */
 @media(min-width:992px){
     .container{
         max-width: 960px;
-        
+    }
+
+    .col-md-4 {
+        max-width: 33.33333333333%;
+        flex: 0 0 100%;
     }
 }
 
