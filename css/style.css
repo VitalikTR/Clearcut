@@ -22,6 +22,10 @@ body {
     border-bottom: 1px solid  #a7c353;
 }
 
+.logo {
+    text-align: center;
+}
+
 .logo-name,
 .logo-text {
     display: block;
@@ -29,7 +33,6 @@ body {
 
 .logo-name {
     font-size: 36px;
-    
 }
 
 .title {
@@ -43,7 +46,6 @@ body {
 }
 
 .text{
-    font-size: 13px;
     color: #999999;
 }
 
@@ -82,6 +84,28 @@ body {
     text-align: center;
 }
 
+.service-container {
+    padding-top: 10px;
+}
+
+.service-bloc {
+    display: flex;
+}
+
+.service-image {
+    margin-right: 15px;
+}
+
+.service-bloc {
+    margin-bottom: 10px;
+}
+
+.service-bloc-text {
+    padding-top: 10px;
+    font-size: 13px;
+    line-height: 1.3;
+}
+
 
 /* tablet */
 @media(min-width:768px){
@@ -92,6 +116,10 @@ body {
         justify-content: space-between;
     } 
 
+    .logo {
+        text-align: left;
+    }
+    
     .nav-menu {
         display: flex;
         justify-content: center;
@@ -126,7 +154,12 @@ body {
     .about,
     .service,
     .testimonials {
-        padding: 40px 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .service-bloc {
+        margin-bottom: 20px;
     }
 }
 
