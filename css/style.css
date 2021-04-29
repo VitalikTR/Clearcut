@@ -29,19 +29,21 @@ body {
 
 .logo-name {
     font-size: 36px;
+    
 }
 
-.color-title {
+.title {
     color:#666666;
+    text-transform: capitalize;
 }
 
 .logo-text {
     font-size: 12px;
     text-transform: capitalize;
-    color: #999999;
 }
 
-.color-text{
+.text{
+    font-size: 13px;
     color: #999999;
 }
 
@@ -56,7 +58,6 @@ body {
 
 .text-shout{
     text-align: center;
-    font-size: 13px;
     line-height: 1.5;
 }
 
@@ -66,11 +67,17 @@ body {
 /* ------------- content-------------- */
 .content-row {
     flex-direction: column;
+    background-color: #ffffff;
 }
 
-.about-img {
-padding: 5px;
-border: red solid 1px;
+.about,
+.service,
+.testimonials {
+    padding: 5px 0;
+}
+
+.content-title{
+    text-align: center;
 }
 
 
@@ -103,6 +110,7 @@ border: red solid 1px;
     .shout-row {
         height: 135px;
     }
+
     .shout-content {
         display: flex;
         align-items: center;
@@ -111,6 +119,12 @@ border: red solid 1px;
     
     .text-shout{
         font-size: 16px;
+    }
+
+    .about,
+    .service,
+    .testimonials {
+        padding: 40px 0;
     }
 }
 
