@@ -33,7 +33,6 @@ body {
 
 .logo-name {
     font-size: 36px;
-    
 }
 
 .title {
@@ -80,14 +79,40 @@ body {
     padding-bottom: 10px;
 }
 
-.service-container {
-    margin-bottom: 15px;
+/* .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+.about-img {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #e2e2e2;
 }
 
-.content-title{
+.about-text{
+    margin-bottom: 20px;
+}
+
+.content-title {
     margin-bottom: 10px;
     font-size: 22px;
     text-align: center;
+}
+
+.service-bloc-title {
+    margin-bottom: 10px;
+}
+
+.content-text {
+    font-size: 13px;
+    line-height: 1.3;
+}
+
+.service-container {
+    margin-bottom: 15px;
 }
 
 .service-bloc {
@@ -101,12 +126,6 @@ body {
 
 .service-bloc:last-child {
     margin-bottom: 0;
-}
-
-.service-bloc-text {
-    padding-top: 10px;
-    font-size: 13px;
-    line-height: 1.3;
 }
 
 .more {
