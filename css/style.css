@@ -81,12 +81,9 @@ body {
 }
 
 .content-title{
+    margin-bottom: 10px;
     font-size: 22px;
     text-align: center;
-}
-
-.service-container {
-    padding-top: 10px;
 }
 
 .service-bloc {
@@ -107,6 +104,13 @@ body {
     line-height: 1.3;
 }
 
+.more {
+    text-align: right;
+}
+
+.more-link {
+    color: #a7c353;
+}
 
 /* tablet */
 @media(min-width:768px){
@@ -159,6 +163,10 @@ body {
         padding-bottom: 10px;
     }
 
+    .content-title{
+        margin-bottom: 10px;
+    }
+
     .service-bloc {
         margin-bottom: 20px;
     }
@@ -178,6 +186,10 @@ body {
 
     .content-row {
         flex-direction: row;
+    }
+
+    .content-title{
+        margin-bottom: 30px;
     }
 }
 
