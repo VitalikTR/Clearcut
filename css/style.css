@@ -110,6 +110,11 @@ body {
 
 .more-link {
     color: #a7c353;
+    text-transform: capitalize;
+}
+
+.more-link::after{
+    content: " »";
 }
 
 /* tablet */
