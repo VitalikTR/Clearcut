@@ -163,6 +163,12 @@ body {
     margin-bottom: 15px;
 }
 
+/* ------------- contact-------------- */
+
+.contact-row {
+    flex-direction: column;
+}
+
 
 /* tablet */
 @media(min-width:768px){
@@ -225,7 +231,7 @@ body {
 
     .service-bloc-content {
         width: 100%;
-    }
+    }   
 
 }
 
@@ -241,15 +247,11 @@ body {
         font-size: 20px;
     }
 
-    .about,
-    .service,
-    .testimonials {
+    .content-row,
+    .contact-row {
+        flex-direction: row;
         padding-top: 25px;
         padding-bottom: 25px;
-    }
-
-    .content-row {
-        flex-direction: row;
     }
 
     .content-title{
@@ -268,9 +270,8 @@ body {
         font-size: 22px;
     }
 
-    .about,
-    .service,
-    .testimonials {
+    .content-row,
+    .contact-row {
         padding-top: 40px;
         padding-bottom: 40px;
     }
