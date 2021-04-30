@@ -76,8 +76,12 @@ body {
 .about,
 .service,
 .testimonials {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.service-container {
+    margin-bottom: 15px;
 }
 
 .content-title{
@@ -88,14 +92,15 @@ body {
 
 .service-bloc {
     display: flex;
+    margin-bottom: 10px;
 }
 
 .service-image {
     margin-right: 15px;
 }
 
-.service-bloc {
-    margin-bottom: 10px;
+.service-bloc:last-child {
+    margin-bottom: 0;
 }
 
 .service-bloc-text {
@@ -164,8 +169,8 @@ body {
     .about,
     .service,
     .testimonials {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
     .content-title{
@@ -175,6 +180,11 @@ body {
     .service-bloc {
         margin-bottom: 20px;
     }
+
+    .service-bloc-content {
+        width: 100%;
+    }
+
 }
 
 
@@ -187,6 +197,13 @@ body {
     
     .text-shout{
         font-size: 20px;
+    }
+
+    .about,
+    .service,
+    .testimonials {
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
 
     .content-row {
@@ -207,6 +224,13 @@ body {
 
     .text-shout{
         font-size: 22px;
+    }
+
+    .about,
+    .service,
+    .testimonials {
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 }
 
