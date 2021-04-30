@@ -112,7 +112,7 @@ body {
 }
 
 .service-container {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .service-bloc {
@@ -140,6 +140,29 @@ body {
 .more-link::after{
     content: " »";
 }
+
+.author-name {
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+}
+
+.quotes {
+    margin-right: 10px;
+}
+
+.testimonials-author{
+    font-size: 16px;
+}
+
+.testimonials-text{
+    margin-bottom: 20px;
+}
+
+.testimonials-one {
+    margin-bottom: 15px;
+}
+
 
 /* tablet */
 @media(min-width:768px){
