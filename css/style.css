@@ -72,9 +72,8 @@ body {
     background-color: #ffffff;
 }
 
-.about,
-.service,
-.testimonials {
+.content-row,
+.contact-row {
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -169,6 +168,35 @@ body {
     flex-direction: column;
 }
 
+.contact-title {
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #3a3a3a;
+    color: white;
+}
+
+.contact-bloc {
+    margin-bottom: 20px;
+}
+
+.contact-bloc:last-child {
+    margin-bottom: 0;
+}
+
+.contact-text {
+    font-size: 12px;
+    color: #999999;
+    margin-bottom: 5px;
+}
+
+.tel-link {
+    color: #999999;
+}
+
+.email-link {
+    color: #a7c353;;
+}
+
 
 /* tablet */
 @media(min-width:768px){
@@ -214,9 +242,8 @@ body {
         font-size: 16px;
     }
 
-    .about,
-    .service,
-    .testimonials {
+    .content-row,
+    .contact-row {
         padding-top: 15px;
         padding-bottom: 15px;
     }
