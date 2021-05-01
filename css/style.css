@@ -72,8 +72,9 @@ body {
     background-color: #ffffff;
 }
 
-.content-row,
-.contact-row {
+.about,
+.service,
+.testimonials {
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -165,7 +166,14 @@ body {
 /* ------------- contact-------------- */
 
 .contact-row {
-    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.company-details,
+.social,
+.blog,
+.contact-us {
+    padding-top: 10px;
 }
 
 .contact-title {
@@ -272,6 +280,12 @@ body {
     
     .text-shout{
         font-size: 20px;
+    }
+    .about,
+    .service,
+    .testimonials {
+        padding-top: 0;
+        padding-bottom: 00x;
     }
 
     .content-row,
