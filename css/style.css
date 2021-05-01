@@ -177,6 +177,7 @@ body {
 }
 
 .contact-title {
+    text-align: center;
     padding-bottom: 15px;
     margin-bottom: 15px;
     border-bottom: 1px solid #3a3a3a;
@@ -203,6 +204,34 @@ body {
 
 .email-link {
     color: #a7c353;;
+}
+
+.social-link-bloc {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.social-link-bloc:last-child{
+    margin-bottom: 0;
+}
+
+.social-img {
+    width: 30px;
+    border-radius: 100%;
+    background: #383838 ;
+    margin-right: 10px;
+}
+
+.social-link {
+    width: 100%;
+}
+
+.link {
+    font-size: 12px;
+    color: #a7c353;
 }
 
 
@@ -296,7 +325,12 @@ body {
     }
 
     .content-title{
+        text-align: left;
         margin-bottom: 30px;
+    }
+
+    .contact-title {
+        text-align: left;
     }
 }
 
