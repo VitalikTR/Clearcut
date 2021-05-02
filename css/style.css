@@ -260,6 +260,38 @@ body {
     font-size: 12px;
 }
 
+ .fields {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -khtml-border-radius: 7px;
+    outline-color: #a7c353;
+    background-color: #383838;
+    border: none;
+    color: #666666;
+}
+
+.send-massege{
+    padding: 10px 12px;
+    font-size: 13px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -khtml-border-radius: 7px;
+    border: none;
+    background-color: #a7c353;
+    color: black;
+}
+
+.send-massege:hover {
+    background-color: black;
+    color: #a7c353;;
+}
+
 /* tablet */
 @media(min-width:768px){
     .header-row {
@@ -380,5 +412,7 @@ body {
 
 /* mobile */
 @media(max-width:767px){
-  
+    .contact-form {
+        text-align: center;
+    }
 }
