@@ -133,6 +133,7 @@ body {
 }
 
 .more-link {
+    font-size: 13px;
     color: #a7c353;
     text-transform: capitalize;
 }
@@ -234,6 +235,30 @@ body {
     color: #a7c353;
 }
 
+.blog-post-bloc {
+    margin-bottom: 15px;
+}
+
+.blog-post-bloc:last-child {
+    margin-bottom: 0;
+}
+
+.blog-post-title {
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #999999;
+}
+
+.blog-posted {
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+
+.post {
+    margin-bottom: 15px;
+    line-height: 1.4;
+    font-size: 12px;
+}
 
 /* tablet */
 @media(min-width:768px){
