@@ -262,7 +262,6 @@ body {
 
  .fields {
     width: 100%;
-    resize: none;
     padding: 10px;
     margin-bottom: 10px;
     font-size: 13px;
@@ -274,6 +273,11 @@ body {
     background-color: #383838;
     border: none;
     color: #666666;
+}
+
+.textarea-text{
+    height: 110px;
+    resize: none;
 }
 
 .send-massege{
