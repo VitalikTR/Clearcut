@@ -292,7 +292,10 @@ body {
     color: #a7c353;;
 }
 
-.contact-row {
+
+/* ------------- footer-------------- */
+
+.footer-row {
     border-bottom: 1px solid #3a3a3a;
 }
 
