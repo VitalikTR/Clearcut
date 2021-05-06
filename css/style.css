@@ -65,6 +65,53 @@ body {
 
 /* ------------- slider-------------- */
 
+.slider-row {
+    background: #ffffff;
+}
+
+.slider-image-bloc {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.slider-img {
+    width: 100%;
+    max-width: 100%;
+}
+
+.slider-description {
+    position: absolute;
+    bottom: 35px;
+    color: #a7c353;
+}
+
+.slider-title {
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 8px;
+    color:#ffffff;
+    background: #a7c353;
+}
+
+.discription {
+    max-width: 350px;
+    padding: 5px;
+    font-size: 8px;
+    background: #ffffff;
+    text-align: justify;
+}
+
+.slider-container > .slider-pagination {
+    bottom: 5px;
+}
+
+/* .swiper-pagination-bullet {
+    border: 1px solid red;
+    background: #a7c353;
+} */
+
 
 /* ------------- content-------------- */
 .content-row {
@@ -323,7 +370,6 @@ body {
     text-align: center;
 }
 
-
 /* tablet */
 @media(min-width:768px){
 
@@ -375,6 +421,28 @@ body {
         font-size: 16px;
     }
 
+    .slider-image-bloc {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .slider-description {
+        padding-right: 40px;
+    }
+    
+    .slider-title {
+        padding: 10px 25px;
+        margin-bottom: 5px;
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    .discription {
+        max-width: 350px;
+        padding: 10px;
+        font-size: 10px;
+    }
+
     .content-title{
         margin-bottom: 10px;
     }
@@ -390,6 +458,7 @@ body {
     .copyright-text {
         text-align: left; 
     }
+
     .template-text {
         text-align: right; 
     }
@@ -405,7 +474,29 @@ body {
     
     .text-shout{
         font-size: 20px;
+    } 
+
+    .slider-image-bloc {
+        padding-bottom: 75px;
     }
+
+    .slider-description {
+        bottom: 100px;
+        padding-right: 60px;
+    }
+
+    .slider-title {
+       font-size: 22px;
+    }
+    
+    .discription {
+       font-size: 12px;
+    }
+
+    .slider-container > .slider-pagination {
+        bottom: 40px;
+    }
+
     .about,
     .service,
     .testimonials {
@@ -420,7 +511,7 @@ body {
         padding-bottom: 25px;
     }
 
-    .content-title{
+    .content-title {
         text-align: left;
         margin-bottom: 30px;
     }
@@ -454,4 +545,9 @@ body {
     .contact-form {
         text-align: center;
     }
+
+    
+
+
+
 }

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clearcut</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper-bundle.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
@@ -51,7 +53,39 @@
             <div class="container">
                 <div class="row slider-row">
                     <div class="col-xs-12 slider-content">
-                        slider
+                        <div class="slider-container swiper-container">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                              <!-- Slides -->
+                              <div class="swiper-slide">
+                                  <div class="slider-image-bloc">
+                                      <img class="slider-img" src="/images/1.jpg" alt="">
+                                      <div class="slider-description">
+                                        <h2 class="slider-title">This Is A Very Long Slider Title</h2>
+                                        <p class="discription text">Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit.</p>
+                                      </div>
+                                     
+                                  </div>
+                              </div>
+                              <!-- <div class="swiper-slide"><div class="slider-image-bloc">
+                                <img class="slider-img" src="/images/img13.png" alt="">
+                                <div class="slider-description">
+                                  <h2 class="slider-title">This Is A Very Long Slider Title</h2>
+                                  <p class="discription text">Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit.</p>
+                                </div>
+                               
+                            </div></div> -->
+                              <div class="swiper-slide">Slide 3</div>
+                              <div class="swiper-slide">Slide 3</div>
+                              <div class="swiper-slide">Slide 3</div>
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="slider-pagination swiper-pagination"></div>
+                          
+                            <!-- If we need navigation buttons -->
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -233,5 +267,10 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="slider/swiper.js"></script>
+
 </body>
 </html>
