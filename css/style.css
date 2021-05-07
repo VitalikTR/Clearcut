@@ -86,12 +86,12 @@ body {
 
 .slider-description {
     position: absolute;
-    bottom: 35px;
+    bottom: 32px;
     color: #a7c353;
 }
 
 .slider-title {
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     text-align: center;
     font-size: 8px;
     color:#ffffff;
@@ -110,10 +110,43 @@ body {
     bottom: 5px;
 }
 
-/* .swiper-pagination-bullet {
-    border: 1px solid red;
+.slider-container .swiper-pagination-bullet {
     background: #a7c353;
-} */
+    opacity: 1;
+}
+
+.slider-container .swiper-pagination-bullet-active {
+    border: 2px solid #a7c353;
+    background: white;
+}
+
+.slider-container .swiper-button-next, 
+.slider-container .swiper-button-prev {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    border-radius: 100%;
+    background: black;
+    border: 2px solid #a7c353;
+}
+
+.slider-container .swiper-button-next:after, 
+.swiper-button-prev:after {
+    font-size: 9px;
+    color: #a7c353;
+}
+
+
+
+.slider-container .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
+    content: 'next';
+}
+
+
+
+
+
 
 
 /* ------------- content-------------- */
@@ -425,6 +458,12 @@ body {
         font-size: 16px;
     }
 
+    .slider-container .swiper-button-next, 
+    .slider-container .swiper-button-prev {
+        width: 27px;
+        height: 27px;
+    }
+
     .slider-image-bloc {
         display: flex;
         justify-content: flex-end;
@@ -432,6 +471,8 @@ body {
 
     .slider-description {
         padding-right: 40px;
+        position: absolute;
+        bottom: 40px;
     }
     
     .slider-title {
@@ -447,7 +488,7 @@ body {
         font-size: 10px;
     }
 
-    .content-title{
+     .content-title{
         margin-bottom: 10px;
     }
 
@@ -497,8 +538,34 @@ body {
        font-size: 12px;
     }
 
-    .slider-container > .slider-pagination {
+    .slider-container .swiper-pagination {
         bottom: 40px;
+    }
+
+    .slider-container .swiper-pagination-bullet {
+        width: 15px;
+        height: 15px;
+        border: 1px solid #a7c353;
+        background: #a7c353;
+        opacity: 1;
+    }
+
+    .slider-container .swiper-pagination-bullet-active {
+        border: 4px solid #a7c353;
+        background: white;
+    }
+
+    .slider-container .swiper-button-next, 
+    .slider-container .swiper-button-prev {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 43%;
+    }
+
+    .slider-container .swiper-button-next:after, 
+    .swiper-button-prev:after {
+        font-size: 25px;
     }
 
     .about,
@@ -540,6 +607,12 @@ body {
     .contact-row {
         padding-top: 40px;
         padding-bottom: 40px;
+    }
+
+    .slider-container .swiper-button-next, 
+    .slider-container .swiper-button-prev {
+        position: absolute;
+        top: 50%;
     }
 }
 
