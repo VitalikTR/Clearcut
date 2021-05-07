@@ -344,6 +344,7 @@ body {
     border: none;
     background-color: #a7c353;
     color: black;
+    cursor: pointer;
 }
 
 .send-massege:hover {
