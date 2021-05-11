@@ -54,6 +54,11 @@ body {
     text-transform: uppercase;
 }
 
+/* ------------- nav-menu-mobile-------------- */
+.nav-menu-mobile {
+    display: none;
+}
+
 /* ------------- shout-------------- */
 .shout-row {
     background-color: #ffffff;
@@ -142,11 +147,6 @@ body {
 .slider-container .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
     content: 'next';
 }
-
-
-
-
-
 
 
 /* ------------- content-------------- */
@@ -623,8 +623,47 @@ body {
         text-align: center;
     }
 
-    
+    .nav-menu-mobile {
+        display: block;
+        width: 15px;
+        height: 15px;
+        position: relative;
+    }
 
+    .nav-menu-mobile span {
+        height: 1px;
+        background-color: black;
+        position: absolute;
+        left: 0;
+        right: 0;
+        transition: 0.25s ease-in-out;
+    }
 
+    .nav-menu-mobile span:nth-child(1) {
+        top: 3px;
+    }
 
+    .nav-menu-mobile span:nth-child(2) {
+        top: 7px;
+    }
+
+    .nav-menu-mobile span:nth-child(3) {
+       bottom: 3px;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 280px;
+        max-width: 280px;
+        transition:  all 500ms ease-in-out;
+        transform: translateY(-150%);
+    }
+
+    .hidden-menu {
+        opacity: 0;
+        visibility: hidden;
+    }
 }
