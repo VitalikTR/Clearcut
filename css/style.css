@@ -640,14 +640,14 @@ body {
         color: white;
     }
 
-    .nav-menu-mobile {
+    .nav-mobile-menu {
         display: block;
         width: 15px;
         height: 15px;
         position: relative;
     }
 
-    .nav-menu-mobile span {
+    .nav-mobile-menu span {
         height: 1px;
         background-color: greenyellow;
         position: absolute;
@@ -656,15 +656,15 @@ body {
         transition: 0.25s ease-in-out;
     }
 
-    .nav-menu-mobile span:nth-child(1) {
+    .nav-mobile-menu span:nth-child(1) {
         top: 3px;
     }
 
-    .nav-menu-mobile span:nth-child(2) {
+    .nav-mobile-menu span:nth-child(2) {
         top: 7px;
     }
-
-    .nav-menu-mobile span:nth-child(3) {
+    
+    .nav-mobile-menu span:nth-child(3) {
        bottom: 3px;
     }
 
