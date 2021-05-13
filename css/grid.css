@@ -82,5 +82,8 @@
 
 /* mobile */
 @media(max-width:767px){
-  
+    .col-xs-6 {
+        max-width: 50%;
+        flex: none
+    }
 }
