@@ -673,8 +673,8 @@ body {
         top: 0;
         right: 0;
         bottom: 0;
-        width: 280px;
-        max-width: 280px;
+        width: 100%;
+        padding: 20px;
         transition:  all 500ms ease-in-out;
         transform: translateY(-150%);
     }
@@ -700,6 +700,28 @@ body {
 
     .nav-mobile-menu.active-menu span:nth-child(3) {
        transform: scale(0);
+    }
+
+    .navigation.active-menu {
+        opacity: 1;
+        visibility: visible;
+        top: 64px;
+        transition:  all 500ms ease-in-out;
+        transform: translateY(0);
+        background-color: black;
+    }
+
+    .navigation.active-menu li {
+        padding-bottom: 10px;      
+    }
+
+    .menu-item {
+        color: #979797;
+        text-transform: uppercase;
+    }
+
+    .menu-item:hover {
+        color: greenyellow;
     }
 
 }
