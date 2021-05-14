@@ -640,6 +640,11 @@ body {
         color: white;
     }
 
+    .slider-title {
+        color: black;
+    }
+    
+
     .nav-mobile-menu {
         display: block;
         width: 15px;
