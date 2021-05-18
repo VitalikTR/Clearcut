@@ -136,18 +136,17 @@ body {
     border: 2px solid #a7c353;
 }
 
-.slider-container .swiper-button-next:after, 
-.swiper-button-prev:after {
+.slider-container 
+.swiper-button-next:after {
     font-size: 9px;
     color: #a7c353;
 }
 
-
-
-.slider-container .swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
-    content: 'next';
+.slider-container 
+.swiper-button-prev:after {
+    font-size: 9px;
+    color: #a7c353;
 }
-
 
 /* ------------- content-------------- */
 .content-row {
@@ -563,7 +562,12 @@ body {
         top: 43%;
     }
 
-    .slider-container .swiper-button-next:after, 
+    .slider-container 
+    .swiper-button-next:after {
+        font-size: 25px;
+    }
+
+    .slider-container
     .swiper-button-prev:after {
         font-size: 25px;
     }
