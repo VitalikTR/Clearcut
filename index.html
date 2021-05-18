@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clearcut</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/swiper.min.css" />
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -204,7 +205,7 @@
         <section class="contact">
             <div class="container">
                 <div class="row contact-row">
-                    <div class="col-xs-12 col-sm-6 col-md-3 company-details">
+                    <div data-aos="fade-right" class="col-xs-12 col-sm-6 col-md-3 company-details">
                         <h2 class="contact-title title">Company Details</h2>
                         <div class="info-adress contact-bloc">
                             <p class="company-name contact-text">Company Name</p>
@@ -223,7 +224,7 @@
                             <p class="weekend contact-text">Saturday: 08:00 - 13:00</p>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-3 social">
+                    <div data-aos="fade-up" class="col-xs-12 col-sm-6 col-md-3 social">
                         <h2 class="contact-title title">Stay Social</h2>
                         <div class="social-link-bloc">
                             <img class="social-img" src="images/linkedin.png" alt="">
@@ -250,7 +251,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-3 blog">
+                    <div data-aos="fade-down" class="col-xs-12 col-sm-6 col-md-3 blog">
                         <h2 class="contact-title title">From The Blog</h2>
                         <div class="blog-post-bloc">
                             <h3 class="blog-post-title title">Blog post title</h3>
@@ -269,7 +270,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-sm-6 col-md-3 contact-us">
+                    <div data-aos="fade-left" class="col-xs-12 col-sm-6 col-md-3 contact-us">
                         <h2 class="contact-title title">Contact US</h2>
                         <div class="contact-send-massege">
                             <form action="" class="contact-form">
@@ -300,6 +301,8 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="slider/swiper.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/aos.js"></script>
     <script src="js/script.js"></script>
 
 </body>
